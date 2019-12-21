@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures":
+  {
+    "all": "tunnels_public_transportation:block/transportation_logo_block"
+  }
+}

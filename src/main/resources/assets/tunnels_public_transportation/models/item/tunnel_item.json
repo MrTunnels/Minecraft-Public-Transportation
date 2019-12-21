@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures":
+  {
+    "layer0": "tunnels_public_transportation:item/tunnel_item"
+  }
+}

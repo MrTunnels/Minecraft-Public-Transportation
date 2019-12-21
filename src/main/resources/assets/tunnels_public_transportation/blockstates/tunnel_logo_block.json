@@ -1,0 +1,6 @@
+{
+  "variants":
+  {
+    "": { "model": "tunnels_public_transportation:block/tunnel_logo_block" }
+  }
+}
