@@ -6,4 +6,5 @@ public class TransportationItems {
 
     public static Item Tunnel_Logo_Block;
     public static Item Transportation_Logo_Block;
+    public static Item Transportation_Entity_WeigangCowEgg;
 }

@@ -1,5 +1,6 @@
 package im.mrtunnel.transportation;
 
+import im.mrtunnel.transportation.client.renders.TransportationRendersRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
@@ -51,6 +52,8 @@ public class TunnelTransportationMod
 
     private void doClientStuff(final FMLClientSetupEvent event) {
         // do something that can only be done on the client
+        TransportationRendersRegistry.registryEntityRenders();
+        LOGGER.info("clientRegistries method registered.");
         LOGGER.info("Got game settings {}", event.getMinecraftSupplier().get().gameSettings);
     }
 

@@ -1,10 +1,13 @@
 package im.mrtunnel.transportation;
 
+import im.mrtunnel.transportation.entities.WeigangCow;
 import im.mrtunnel.transportation.init.TransportationBlocks;
+import im.mrtunnel.transportation.init.TransportationEntities;
 import im.mrtunnel.transportation.init.TransportationItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
+import net.minecraft.entity.EntityType;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -29,6 +32,7 @@ public class TunnelTransportationRegistries {
                         TransportationItems.Tunnel_Logo_Block = new BlockItem( TransportationBlocks.Tunnel_Logo_Block, new Item.Properties().group(TunnelTransportation)).setRegistryName(TransportationBlocks.Tunnel_Logo_Block.getRegistryName()),
                         TransportationItems.Transportation_Logo_Block =  new BlockItem( TransportationBlocks.Transportation_Logo_Block, new Item.Properties().group(TunnelTransportation)).setRegistryName(TransportationBlocks.Transportation_Logo_Block.getRegistryName())
                 );
+        TransportationEntities.registerEntitySpawnEggs(event);
         LOGGER.info("Items registered.");
     }
 
@@ -42,5 +46,19 @@ public class TunnelTransportationRegistries {
                 );
 
         LOGGER.info("Blocks registered.");
+    }
+
+    @SubscribeEvent
+    public static void registerEntities(final RegistryEvent.Register<EntityType<?>> event)
+    {
+        event.getRegistry().registerAll
+                (
+                        TransportationEntities.WeigangCow_entity
+                );
+    }
+
+    public static ResourceLocation location(String name)
+    {
+        return new ResourceLocation(MODID, name);
     }
 }
