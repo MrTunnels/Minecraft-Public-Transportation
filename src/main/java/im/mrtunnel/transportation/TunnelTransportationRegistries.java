@@ -30,6 +30,9 @@ public class TunnelTransportationRegistries {
                 (
                         TransportationItems.Tunnel_item = new Item(new Item.Properties().group(TunnelTransportation)).setRegistryName("tunnel_item"),
                         TransportationItems.Tunnel_Logo_Block = new BlockItem( TransportationBlocks.Tunnel_Logo_Block, new Item.Properties().group(TunnelTransportation)).setRegistryName(TransportationBlocks.Tunnel_Logo_Block.getRegistryName()),
+                        TransportationItems.Transportation_BusStop_Leaf = new BlockItem( TransportationBlocks.Transportation_BusStop_Leaf, new Item.Properties().group(TunnelTransportation)).setRegistryName(TransportationBlocks.Transportation_BusStop_Leaf.getRegistryName()),
+                        TransportationItems.Transportation_NJC6970_display = new BlockItem( TransportationBlocks.Transportation_NJC6970_display, new Item.Properties().group(TunnelTransportation)).setRegistryName(TransportationBlocks.Transportation_NJC6970_display.getRegistryName()),
+                        TransportationItems.Jiankang_Logo = new BlockItem( TransportationBlocks.Jiankang_Logo, new Item.Properties().group(TunnelTransportation)).setRegistryName(TransportationBlocks.Jiankang_Logo.getRegistryName()),
                         TransportationItems.Transportation_Logo_Block =  new BlockItem( TransportationBlocks.Transportation_Logo_Block, new Item.Properties().group(TunnelTransportation)).setRegistryName(TransportationBlocks.Transportation_Logo_Block.getRegistryName())
                 );
         TransportationEntities.registerEntitySpawnEggs(event);
@@ -42,7 +45,10 @@ public class TunnelTransportationRegistries {
         event.getRegistry().registerAll
                 (
                         TransportationBlocks.Tunnel_Logo_Block = new Block(Block.Properties.create(Material.IRON).hardnessAndResistance(2.0f, 3.0f).lightValue(5).sound(SoundType.METAL)).setRegistryName("tunnel_logo_block"),
-                        TransportationBlocks.Transportation_Logo_Block = new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(2.0f, 3.0f).lightValue(5).sound(SoundType.METAL)).setRegistryName("transportation_logo_block")
+                        TransportationBlocks.Transportation_Logo_Block = new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(2.0f, 3.0f).lightValue(5).sound(SoundType.METAL)).setRegistryName("transportation_logo_block"),
+                        TransportationBlocks.Transportation_BusStop_Leaf = new Block(Block.Properties.create(Material.IRON).hardnessAndResistance(2.0f, 3.0f).lightValue(5).sound(SoundType.METAL)).setRegistryName("transportation_busstop_leaf"),
+                        TransportationBlocks.Transportation_NJC6970_display = new Block(Block.Properties.create(Material.IRON).hardnessAndResistance(2.0f, 3.0f).lightValue(5).sound(SoundType.METAL)).setRegistryName("transportation_njc6970_display"),
+                        TransportationBlocks.Jiankang_Logo = new Block(Block.Properties.create(Material.IRON).hardnessAndResistance(2.0f, 3.0f).lightValue(5).sound(SoundType.METAL)).setRegistryName("jiankang_logo")
                 );
 
         LOGGER.info("Blocks registered.");

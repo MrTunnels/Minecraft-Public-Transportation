@@ -1,0 +1,6 @@
+{
+  "loader": "forge:obj",
+  "model": "tunnels_public_transportation:models/obj/busstop/leaf/busstop_leaf.obj",
+  "flip-v": true
+
+}

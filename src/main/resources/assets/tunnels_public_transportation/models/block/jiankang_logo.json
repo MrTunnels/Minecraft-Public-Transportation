@@ -1,0 +1,6 @@
+{
+  "loader": "forge:obj",
+  "model": "tunnels_public_transportation:models/obj/spareparts/jiankanglogo.obj",
+  "flip-v": true
+
+}
