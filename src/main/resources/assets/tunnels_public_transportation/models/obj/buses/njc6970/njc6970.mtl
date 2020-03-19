@@ -1,4 +1,4 @@
-# Blender MTL File: 'njc6970.blend'
+# Blender MTL File: 'NJC6970-cleaned.blend'
 # Material Count: 18
 
 newmtl Material
@@ -10,7 +10,6 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 0.454545
 illum 9
-map_Kd tunnels_public_transportation:buses/njc6970/bamboo
 
 newmtl Material.001
 Ns 225.000000
@@ -51,7 +50,6 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd tunnels_public_transportation:buses/njc6970/njc6970_back_door
 
 newmtl Material_Front_Door_painted
 Ns 225.000000
@@ -62,7 +60,6 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd tunnels_public_transportation:buses/njc6970/njc6970_front_door
 
 newmtl Material_Front_Door_painted_right
 Ns 225.000000
@@ -73,7 +70,6 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd tunnels_public_transportation:buses/njc6970/njc6970_front_door_right_colored
 
 newmtl Material_front_center
 Ns 225.000000
@@ -84,7 +80,6 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd tunnels_public_transportation:buses/njc6970/front_center
 
 newmtl Material_front_door
 Ns 225.000000
@@ -133,7 +128,6 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd tunnels_public_transportation:buses/njc6970/njc6970_left
 
 newmtl material_front
 Ns 225.000000
@@ -144,7 +138,6 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd tunnels_public_transportation:buses/njc6970/front_right
 
 newmtl metal
 Ns 225.000000
@@ -185,4 +178,3 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd tunnels_public_transportation:buses/njc6970/njc6970_right
