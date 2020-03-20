@@ -1,0 +1,6 @@
+{
+  "loader": "forge:obj",
+  "model": "tunnels_public_transportation:models/obj/buses/njc6970/njc6970-side.obj",
+  "flip-v": true
+
+}

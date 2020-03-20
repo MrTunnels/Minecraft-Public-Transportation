@@ -8,5 +8,6 @@ public class TransportationBlocks {
     public static Block Transportation_Logo_Block;
     public static Block Transportation_BusStop_Leaf;
     public static Block Transportation_NJC6970_display;
+    public static Block Transportation_NJC6970_side_display;
     public static Block Jiankang_Logo;
 }
